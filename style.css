@@ -103,6 +103,7 @@ body {
 }
 
 .b_100_titel {
+	text-align:center;
 	font-weight: bold;
 	background-color: #7195ba;
 	border-style: solid;
