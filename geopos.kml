@@ -3275,7 +3275,7 @@
 <Point>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.596775,47.431277</coordinates>
+<coordinates>9.595979,47.431013</coordinates>
 </Point>
 </Placemark>
 
@@ -3304,7 +3304,7 @@
 <Point>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.596953,47.431309</coordinates>
+<coordinates>9.596775,47.431277</coordinates>
 </Point>
 </Placemark>
 
@@ -3333,7 +3333,7 @@
 <Point>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.597082,47.431329</coordinates>
+<coordinates>9.596953,47.431309</coordinates>
 </Point>
 </Placemark>
 
@@ -3362,7 +3362,7 @@
 <Point>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.597214,47.43135</coordinates>
+<coordinates>9.597082,47.431329</coordinates>
 </Point>
 </Placemark>
 
@@ -3391,7 +3391,7 @@
 <Point>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.596311,47.430366</coordinates>
+<coordinates>9.597214,47.43135</coordinates>
 </Point>
 </Placemark>
 
@@ -3420,7 +3420,7 @@
 <Point>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.596349,47.430316</coordinates>
+<coordinates>9.596311,47.430366</coordinates>
 </Point>
 </Placemark>
 
@@ -3449,7 +3449,7 @@
 <Point>
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.596197,47.43016</coordinates>
+<coordinates>9.596349,47.430316</coordinates>
 </Point>
 </Placemark>
 
@@ -3460,6 +3460,35 @@
 </Data>
 </ExtendedData>
 <name>511</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.596197,47.43016</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_512">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>512</name>
 <description>Lerchenfeld -  </description>
 <Style>
 <IconStyle>
