@@ -3134,6 +3134,354 @@
 </Point>
 </Placemark>
 
+<Placemark id="marker_500">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>500</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.595519,47.431275</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_501">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>501</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.595772,47.431179</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_502">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>502</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.595999,47.431068</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_503">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>503</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.596021,47.431025</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_504">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>504</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.596775,47.431277</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_505">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>505</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.596953,47.431309</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_506">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>506</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.597082,47.431329</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_507">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>507</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.597214,47.43135</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_508">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>508</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.596311,47.430366</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_509">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>509</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.596349,47.430316</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_510">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>510</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.596197,47.43016</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_511">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>511</name>
+<description>Lerchenfeld -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.596002,47.429945</coordinates>
+</Point>
+</Placemark>
+
 
     </Document>
     </kml>
