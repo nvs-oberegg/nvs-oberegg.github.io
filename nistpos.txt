@@ -1,6 +1,7 @@
 lat	lon	title	description	icon	iconSize	iconOffset
-48.9459301	9.6075669	Title One	Description one	icon_red.png	24,24	0,-24
-48.9899851	9.5382032	Title Two	Description two	icon_red.png	16,16	-8,-8
-48.9500000	9.5575669	Titel1111	Beschreibung111	icon_red.png	24,24	0,-24
+48.9459301	9.6075669	Title One	Description one	icon_red.png	20,24	0,-20
+48.9899851	9.5382032	Title Two	Description two	icon_red.png	20,24	0,-20
+48.9500000	9.5575669	Titel1111	Beschreibung111	icon_red.png	20,24	0,-20
 48.9600000	9.5675669	Titel2222	Beschreibung222	icon_red.png	24,24	0,-24
 48.9700000	9.5775669	Titel333	Beschreibung3	icon_red.png	24,24	0,-24
+48.9700000	9.6100000	T4444444	B44444444444	icon_red.png	24,24	0,-24
