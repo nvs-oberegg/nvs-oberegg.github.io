@@ -170,7 +170,7 @@
           colorMarker = redMarker    // blueMarker
         }
         var marker = L.marker([element[1], element[2]], {icon: colorMarker}).addTo(map);
-        marker.bindPopup("<b>" + element[4] + "</b>");
+        marker.bindPopup("<b>" + element[4] +  "<br>" + element[5] + "</b>");
         index = index + 1
       };
     </script>
