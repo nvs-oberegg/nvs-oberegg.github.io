@@ -169,7 +169,7 @@
       for (element of data) {
         var colorMarker = redMarker
         if (index == selectedIndex){
-          colorMarker = blueMarker
+          colorMarker = redMarker    // blueMarker
         }
         var marker = L.marker([element[1], element[2]], {icon: colorMarker}).addTo(map);
         marker.bindPopup("<b>" + element[4] + "</b><br><a href=\"picture.html\" onclick=\"localStorage.setItem(galleryTitle, " + index + ");return true;\"><img src=\"" + element[3] + "\" alt=\"" + element[4] + "\" title=\"" + element[4] + "\" /></a>");
@@ -178,3 +178,4 @@
     </script>
   </body>
 </html>
+
