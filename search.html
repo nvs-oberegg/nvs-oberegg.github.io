@@ -8,14 +8,13 @@
     <title>Natur und Vogelschutz Verein Oberegg - Reute</title>
     <link rel="stylesheet" href="./css/theme.css" />
     <link rel="stylesheet" href="./css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
-    <script src="./js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
       <script src="./js/html5shiv.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -28,7 +27,7 @@
           <img src="./img/vogelschutz-logo.jpg" class="logo" alt="Logo"/>
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-      <input type="text" name="q" placeholder="Durchsuchen" title="Tragen Sie hier den gesuchten Begriff ein" />
+      <input type="text" name="q" placeholder="Durchsuchen" aria-label="Durchsuchen" title="Tragen Sie hier den gesuchten Begriff ein" />
   </form>
 </div>
       </div>
@@ -57,7 +56,7 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="./.#04-okt-2025-weiherputzete-familienanlass">04. Okt. 2025 - Weiherputzete (Familienanlass)</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="./.#11-okt-2025-vogelfutterverkauf-hans-stark-kirchplatz-6-a-oberegg">11. Okt. 2025 - Vogelfutterverkauf        Hans Stark, Kirchplatz 6 a, Oberegg</a>
+    <li class="toctree-l3"><a class="reference internal" href="./.#11-okt-2025-vogelfutterverkauf-hans-stark-kirchplatz-6-a-oberegg">11. Okt. 2025 - Vogelfutterverkauf Hans Stark, Kirchplatz 6 a, Oberegg</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="./.#08-nov-2025-arbeitseinsatz-natur">08. Nov. 2025 - Arbeitseinsatz «Natur»</a>
     </li>
@@ -99,7 +98,7 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="./." class="icon icon-home" alt="Dokumentation"></a> &raquo;</li>
+    <li><a href="./." class="icon icon-home" aria-label="Dokumentation"></a></li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -113,7 +112,7 @@
 
   <form id="content_search" action="search.html">
     <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
-    <input name="q" id="mkdocs-search-query" type="text" class="search_input search-query ui-autocomplete-input" placeholder="Dokumentation durchsuchen" autocomplete="off" autofocus title="Tragen Sie hier den gesuchten Begriff ein">
+    <input name="q" id="mkdocs-search-query" type="text" class="search_input search-query ui-autocomplete-input" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" autocomplete="off" autofocus title="Tragen Sie hier den gesuchten Begriff ein">
   </form>
 
   <div id="mkdocs-search-results" class="search-results" data-no-results-text="Keine Ergebnisse gefunden">
@@ -130,7 +129,7 @@
     <!-- Copyright etc -->
   </div>
 
-  Erzeugt mit <a href="https://www.mkdocs.org/">MkDocs</a> mit einem <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> von <a href="https://readthedocs.org">Read the Docs</a>.
+  Erzeugt mit <a href="https://www.mkdocs.org/">MkDocs</a> mit einem <a href="https://github.com/readthedocs/sphinx_rtd_theme">Thema</a> von <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
           
         </div>
@@ -147,14 +146,15 @@
     
   </span>
 </div>
-    <script>var base_url = '.';</script>
-    <script src="./js/theme_extra.js" defer></script>
-    <script src="./js/theme.js" defer></script>
-      <script src="./search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="./js/theme_extra.js"></script>
+    <script src="./js/theme.js"></script>
+      <script src="./search/main.js"></script>
+    <script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 
 </body>
