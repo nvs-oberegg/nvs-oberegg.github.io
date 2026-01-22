@@ -1,45 +1,47 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
-  <head>
-    <title>NVS - Oberegg</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="Content-Script-Type" content="text/javascript" />
-    <meta http-equiv="Content-Style-Type" content="text/css" />
-    <meta http-equiv="Content-Language" content="en" />
-    <meta name="author" content="Othmar Schmid" />
+    <head>
+        <title>NVS - Oberegg</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Language" content="en" />
+        <meta name="author" content="Othmar Schmid" />
 
-    <link rel="stylesheet" type="text/css" href="./leaflet.css" title="Standard" media="screen" />
-  </head>
-  <body>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <div id="page">
-      <div id="mapdiv" style="width:100%;height:200vw">
-      </div>
-    </div>
-    <script src="./leaflet.js"></script>
-    <script type="text/javascript">
-      var map = L.map('mapdiv').setView([47.39, 9.57], 15);
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 18,
-        attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
-      }).addTo(map);
-      
-      var redMarker = L.icon({
-        iconUrl: './marker_red.png',
-        iconRetinaUrl: './marker_red.png',
-        iconSize: [25, 41],
-        iconAnchor: [12, 40],
-        popupAnchor: [2, -35]
-      });
+        <link rel="stylesheet" type="text/css" href="./leaflet.css" title="Standard" media="screen" />
+    </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <div id="page">
+            <div id="mapdiv" style="width:100%;height:200vw">
+            </div>
+        </div>
+        <script src="./leaflet.js">
+        </script>
+        <script type="text/javascript">
+            var map = L.map('mapdiv').setView([47.39, 9.57], 15);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 18,
+              attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+            }).addTo(map);
 
-      var blueMarker = L.icon({
-        iconUrl: './marker_blue.png',
-        iconRetinaUrl: './marker_blue.png',
-        iconSize: [25, 41],
-        iconAnchor: [12, 40],
-        popupAnchor: [2, -35]
-      });
-      const data = [
+            var redMarker = L.icon({
+              iconUrl: './marker_red.png',
+              iconRetinaUrl: './marker_red.png',
+              iconSize: [25, 41],
+              iconAnchor: [12, 40],
+              popupAnchor: [2, -35]
+            });
+
+            var blueMarker = L.icon({
+              iconUrl: './marker_blue.png',
+              iconRetinaUrl: './marker_blue.png',
+              iconSize: [25, 41],
+              iconAnchor: [12, 40],
+              popupAnchor: [2, -35]
+            });
+            const data = [
+["aaa","47.429875","9.551306","nistkasten.jpg","99","Berg"],
 ["aaa","47.43051","9.55439","nistkasten.jpg","100","Berg"],
 ["aaa","47.43045","9.55342","nistkasten.jpg","101","Berg"],
 ["aaa","47.43047","9.5526","nistkasten.jpg","102","Berg"],
@@ -62,8 +64,6 @@
 ["aaa","47.42549","9.54391","nistkasten.jpg","119","Laderen"],
 ["aaa","47.42558","9.54465","nistkasten.jpg","120","Laderen"],
 ["aaa","47.425","9.54506","nistkasten.jpg","121","Laderen"],
-["aaa","47.42304","9.54513","nistkasten.jpg","122","Vorderladern"],
-["aaa","47.42259","9.54557","nistkasten.jpg","123","Vorderladern"],
 ["aaa","47.42228","9.54734","nistkasten.jpg","124","Vorderladern"],
 ["aaa","47.42274","9.54811","nistkasten.jpg","125","Vorderladern"],
 ["aaa","47.42254","9.54809","nistkasten.jpg","126","Vorderladern"],
@@ -82,6 +82,7 @@
 ["aaa","47.42538","9.55642","nistkasten.jpg","213","Städeli"],
 ["aaa","47.42543","9.55626","nistkasten.jpg","214","Städeli"],
 ["aaa","47.42439","9.55475","nistkasten.jpg","215","Säge"],
+["aaa","47.420294","9.558488","nistkasten.jpg","215","Säge"],
 ["aaa","47.42052","9.55898","nistkasten.jpg","216","Säge"],
 ["aaa","47.42065","9.5593","nistkasten.jpg","217","Säge"],
 ["aaa","47.42062","9.55942","nistkasten.jpg","218","Säge"],
@@ -161,20 +162,20 @@
 ["aaa","47.430316","9.596349","nistkasten.jpg","510","Lerchenfeld"],
 ["aaa","47.43016","9.596197","nistkasten.jpg","511","Lerchenfeld"],
 ["aaa","47.429945","9.596002","nistkasten.jpg","512","Lerchenfeld"],
-      ]
-      const galleryTitle = "Nistkastenpositionen"
-      var index = 0
-      selectedIndex = Math.min(Math.max(0, localStorage.getItem(galleryTitle)||0), data.length-1)
-      for (element of data) {
-        var colorMarker = redMarker
-        if (index == selectedIndex){
-          colorMarker = redMarker    // blueMarker
-        }
-        var marker = L.marker([element[1], element[2]], {icon: colorMarker}).addTo(map);
-        marker.bindPopup("<b>" + element[4] +  "<br>" + element[5] + "</b>");
-        index = index + 1
-      };
-    </script>
-  </body>
+          ]
+          const galleryTitle = "Nistkastenpositionen"
+          var index = 0
+          selectedIndex = Math.min(Math.max(0, localStorage.getItem(galleryTitle)||0), data.length-1)
+          for (element of data) {
+            var colorMarker = redMarker
+            if (index == selectedIndex){
+              colorMarker = redMarker    // blueMarker
+            }
+            var marker = L.marker([element[1], element[2]], {icon: colorMarker}).addTo(map);
+            marker.bindPopup("<b>" + element[4] +  "<br>" + element[5] + "</b>");
+            index = index + 1
+          };
+      </script>
+    </body>
 </html>
 

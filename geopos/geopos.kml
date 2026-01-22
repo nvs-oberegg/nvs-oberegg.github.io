@@ -2,6 +2,35 @@
     <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
     <Document>
     <name>Zeichnung</name>
+<Placemark id="marker_99">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>99</name>
+<description>Berg -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.551306,47.429875</coordinates>
+</Point>
+</Placemark>
+
 <Placemark id="marker_100">
 <ExtendedData>
 <Data name="type">
@@ -640,64 +669,6 @@
 </Point>
 </Placemark>
 
-<Placemark id="marker_122">
-<ExtendedData>
-<Data name="type">
-<value>marker</value>
-</Data>
-</ExtendedData>
-<name>122</name>
-<description>Vorderladern -  </description>
-<Style>
-<IconStyle>
-<Icon>
-<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
-<gx:w>48</gx:w>
-<gx:h>48</gx:h>
-</Icon>
-<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
-</IconStyle>
-<LabelStyle>
-<color>ff0000ff</color>
-<scale>1.5</scale>
-</LabelStyle>
-</Style>
-<Point>
-<tessellate>1</tessellate>
-<altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.54513,47.42304</coordinates>
-</Point>
-</Placemark>
-
-<Placemark id="marker_123">
-<ExtendedData>
-<Data name="type">
-<value>marker</value>
-</Data>
-</ExtendedData>
-<name>123</name>
-<description>Vorderladern -  </description>
-<Style>
-<IconStyle>
-<Icon>
-<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
-<gx:w>48</gx:w>
-<gx:h>48</gx:h>
-</Icon>
-<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
-</IconStyle>
-<LabelStyle>
-<color>ff0000ff</color>
-<scale>1.5</scale>
-</LabelStyle>
-</Style>
-<Point>
-<tessellate>1</tessellate>
-<altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.54557,47.42259</coordinates>
-</Point>
-</Placemark>
-
 <Placemark id="marker_124">
 <ExtendedData>
 <Data name="type">
@@ -1217,6 +1188,35 @@
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
 <coordinates>9.55475,47.42439</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_215">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>215</name>
+<description>Säge -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.558488,47.420294</coordinates>
 </Point>
 </Placemark>
 
