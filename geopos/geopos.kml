@@ -1191,35 +1191,6 @@
 </Point>
 </Placemark>
 
-<Placemark id="marker_215">
-<ExtendedData>
-<Data name="type">
-<value>marker</value>
-</Data>
-</ExtendedData>
-<name>215</name>
-<description>Säge -  </description>
-<Style>
-<IconStyle>
-<Icon>
-<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
-<gx:w>48</gx:w>
-<gx:h>48</gx:h>
-</Icon>
-<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
-</IconStyle>
-<LabelStyle>
-<color>ff0000ff</color>
-<scale>1.5</scale>
-</LabelStyle>
-</Style>
-<Point>
-<tessellate>1</tessellate>
-<altitudeMode>clampToGround</altitudeMode>
-<coordinates>9.558488,47.420294</coordinates>
-</Point>
-</Placemark>
-
 <Placemark id="marker_216">
 <ExtendedData>
 <Data name="type">
@@ -1478,6 +1449,35 @@
 <tessellate>1</tessellate>
 <altitudeMode>clampToGround</altitudeMode>
 <coordinates>9.5585,47.41885</coordinates>
+</Point>
+</Placemark>
+
+<Placemark id="marker_225">
+<ExtendedData>
+<Data name="type">
+<value>marker</value>
+</Data>
+</ExtendedData>
+<name>225</name>
+<description>Säge -  </description>
+<Style>
+<IconStyle>
+<Icon>
+<href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+<gx:w>48</gx:w>
+<gx:h>48</gx:h>
+</Icon>
+<hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>ff0000ff</color>
+<scale>1.5</scale>
+</LabelStyle>
+</Style>
+<Point>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>9.558488,47.420294</coordinates>
 </Point>
 </Placemark>
 
